@@ -1,0 +1,524 @@
+
+header img{
+  margin: 0 auto;
+  display: block;
+}
+header nav{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+ header ul{
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  opacity: 0.5;
+}
+
+header li{
+  list-style: none;
+  text-decoration: none;
+}
+main h1{
+  text-align: center;
+  margin-bottom: 64px;
+  font-size: 40px;
+}
+main .contents h2{
+  border-left: 15px solid red;
+  padding-left: 10px;
+  font-size: 30px;
+}
+main .contentss{
+  display: flex;
+}
+main .contentss p{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 20px;
+}
+main .contentss img{
+  width: 400px;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.kubetu h2{
+  border-left: 15px solid green;
+  padding-left: 10px;
+  margin-top: 150px;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.kubetu{
+  /* position: relative; */
+  margin-bottom: 100px;
+}
+
+.kawasaki{
+  margin-bottom: 100px;
+}
+.kawasaki .circle{
+  background:  rgb(129, 247, 135);
+  border-radius: 50%;
+  color: black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.kawasakititle{
+  display: flex;
+  border-bottom: 2px solid  rgb(129, 247, 135);
+  width: 300px;
+}
+.kawasakititle h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.kacontents{
+  display: flex;
+  margin-top: 40px;
+}
+.kacontents p {
+  line-height: 2;
+  font-size: 20px;
+  text-align: center;
+}
+.kacontents img{
+  width: 400px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+.kacontents p{
+  margin-bottom: 60px;
+}
+.kacontents ul{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.kadocument{
+  border-left: 2px dashed greenyellow;
+}
+.hospitarity{
+  display: flex;
+}
+.hospitarity img{
+  width: 300px;
+  height: 200px;
+  margin: 150px 0px 0px 100px;
+}
+
+
+
+
+.saiwai{
+  margin-bottom: 100px;
+}
+.saiwai .circle{
+  background:  rgb(129, 247, 135);
+  border-radius: 50%;
+  color: black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.saiwaititle{
+  display: flex;
+  border-bottom: 2px solid  rgb(129, 247, 135);
+  width: 300px;
+}
+.saiwaititle h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.sacontents{
+  display: flex;
+  margin-top: 40px;
+}
+.sacontents p , 
+.sacontents h4{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.sacontents img{
+  width: 400px;
+  border-radius: 10px;
+}
+.sacontents p{
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.sacontents ul{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.sadocument{
+  border-left: 2px dashed greenyellow;
+}
+.hospitarity{
+  display: flex;
+}
+.hospitarity img{
+  width: 300px;
+  height: 200px;
+  margin: 150px 0px 0px 100px;
+}
+.sacontentss{
+  margin-right: 50px;
+}
+
+
+.nakahara{
+  margin-bottom: 100px;
+}
+.nakahara .circle{
+  background:  rgb(129, 247, 135);
+  border-radius: 50%;
+  color: black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.nakaharatitle{
+  display: flex;
+  border-bottom: 2px solid  rgb(129, 247, 135);
+  width: 300px;
+}
+.nakaharatitle h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.nacontents{
+  display: flex;
+  margin-top: 40px;
+}
+.nacontents p , 
+.nacontents h4{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.nacontents img{
+  width: 400px;
+  border-radius: 10px;
+}
+.nacontents p{
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.nacontents ul{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.nadocument{
+  border-left: 2px dashed greenyellow;
+}
+.hospitarity{
+  display: flex;
+}
+.hospitarity img{
+  width: 300px;
+  height: 200px;
+  margin: 150px 0px 0px 100px;
+}
+.nacontentss{
+  margin-right: 50px;
+}
+
+
+.takatu{
+  margin-bottom: 100px;
+}
+.takatu .circle{
+  background:  rgb(129, 247, 135);
+  border-radius: 50%;
+  color: black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.takatutitle{
+  display: flex;
+  border-bottom: 2px solid  rgb(129, 247, 135);
+  width: 300px;
+}
+.takatutitle h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.takcontents{
+  display: flex;
+  margin-top: 40px;
+}
+.takcontents p , 
+.takcontents h4{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.takcontents img{
+  width: 400px;
+  border-radius: 10px;
+}
+.takcontents p{
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.takcontents ul{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.takdocument{
+  border-left: 2px dashed greenyellow;
+}
+.hospitarity{
+  display: flex;
+}
+.hospitarity img{
+  width: 300px;
+  height: 200px;
+  margin: 150px 0px 0px 100px;
+}
+.takcontentss{
+  margin-right: 50px;
+}
+
+
+.miyamae{
+  margin-bottom: 100px;
+}
+.miyamae .circle{
+  background:  rgb(129, 247, 135);
+  border-radius: 50%;
+  color: black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.miyamaetitle{
+  display: flex;
+  border-bottom: 2px solid  rgb(129, 247, 135);
+  width: 300px;
+}
+.miyamaetitle h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.micontents{
+  display: flex;
+  margin-top: 40px;
+}
+.micontents p , 
+.micontents h4{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.micontents img{
+  width: 400px;
+  border-radius: 10px;
+}
+.micontents p{
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.micontents ul{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.midocument{
+  border-left: 2px dashed greenyellow;
+}
+.hospitarity{
+  display: flex;
+}
+.hospitarity img{
+  width: 300px;
+  height: 200px;
+  margin: 150px 0px 0px 100px;
+}
+.micontentss{
+  margin-right: 50px;
+}
+
+
+.tama{
+  margin-bottom: 100px;
+}
+.tama .circle{
+  background:  rgb(129, 247, 135);
+  border-radius: 50%;
+  color: black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.tamatitle{
+  display: flex;
+  border-bottom: 2px solid  rgb(129, 247, 135);
+  width: 300px;
+}
+.tamatitle h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.tamcontents{
+  display: flex;
+  margin-top: 40px;
+}
+.tamcontents p , 
+.tamcontents h4{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.tamcontents img{
+  width: 400px;
+  border-radius: 10px;
+}
+.tamcontents p{
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.tamcontents ul{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.tamdocument{
+  border-left: 2px dashed greenyellow;
+}
+.hospitarity{
+  display: flex;
+}
+.hospitarity img{
+  width: 300px;
+  height: 200px;
+  margin: 150px 0px 0px 100px;
+}
+.tamcontentss{
+  margin-right: 50px;
+}
+
+
+.asao{
+  margin-bottom: 100px;
+}
+.asao .circle{
+  background:  rgb(129, 247, 135);
+  border-radius: 50%;
+  color: black;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.asaotitle{
+  display: flex;
+  border-bottom: 2px solid  rgb(129, 247, 135);
+  width: 300px;
+}
+.asaotitle h3{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.acontents{
+  display: flex;
+  margin-top: 40px;
+}
+.acontents p , 
+.acontents h4{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.acontents img{
+  width: 400px;
+  border-radius: 10px;
+}
+.acontents p{
+  margin-bottom: 60px;
+  margin-left: 50px;
+}
+.acontents ul{
+  line-height: 2;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+.adocument{
+  border-left: 2px dashed greenyellow;
+}
+.hospitarity{
+  display: flex;
+}
+.hospitarity img{
+  width: 300px;
+  height: 200px;
+  margin: 150px 0px 0px 100px;
+}
+.acontentss{
+  margin-right: 50px;
+}
+
+.last{
+  text-align: center;
+  margin-left: auto;
+  border: solid;
+  width: 100px;
+}
+
+footer{
+  padding: 32px 0;
+  background: silver;
+  color: #fff;
+  text-align: center;
+}
+
+
